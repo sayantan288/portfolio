@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sayantan Karmakar - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
 </head>
 <body>
+    <!-- Animated Background -->
+    <div class="bg-animation"></div>
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
     <header>
         <nav>
-            <div class="logo">Sayantan</div>
+            <div class="logo">🚀 Sayantan</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -22,69 +31,106 @@
     <main>
         <section id="hero" class="hero">
             <div class="hero-content">
+                <div class="avatar">👨‍💻</div>
                 <h1>Sayantan Karmakar</h1>
-                <p class="tagline">Platform DevOps Engineer 2</p>
+                <p class="tagline">Platform DevOps Engineer 2 | Kuber-naut | Cloud Architect</p>
                 <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+        </section>
+
+        <section id="stats" class="section">
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">8+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">🏆</div>
+                    <div class="stat-label">Golden Kubestronaut</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">☁️</div>
+                    <div class="stat-label">Multi-Cloud Certified</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">🔧</div>
+                    <div class="stat-label">CNCF Contributor</div>
+                </div>
             </div>
         </section>
 
         <section id="about" class="section">
             <h2>About Me</h2>
-            <p>I'm a Platform DevOps Engineer with 8+ years of experience specializing in open-source platforms, cloud-native technologies, and GitOps practices. I'm a Golden Kubestronaut, Red Hat, AWS, Terraform and OCI certified, with hands-on expertise in multiple Cloud Native tools. I'm an active contributor to CNCF projects and regularly attend local Kubernetes, OSS and Cloud meetups. My core focus is on building scalable, automated infrastructure and deployment pipelines using IaC and GitOps workflows.</p>
+            <p>I'm a Platform DevOps Engineer with 8+ years of experience specializing in open-source platforms, cloud-native technologies, and GitOps practices. As a <strong>Golden Kubestronaut</strong> and certified professional in <strong>Red Hat, AWS, Terraform, and OCI</strong>, I bring hands-on expertise in building scalable, automated infrastructure and deployment pipelines using IaC and GitOps workflows. I'm an active contributor to CNCF projects and a regular speaker at Kubernetes, OSS, and Cloud meetups.</p>
         </section>
 
         <section id="skills" class="section">
-            <h2>Skills</h2>
+            <h2>Skills & Technologies</h2>
             <div class="skills-grid">
-                <div class="skill-card">Kubernetes</div>
-                <div class="skill-card">Docker</div>
-                <div class="skill-card">AWS</div>
-                <div class="skill-card">Azure</div>
-                <div class="skill-card">Terraform</div>
-                <div class="skill-card">Git</div>
-                <div class="skill-card">Prometheus</div>
-                <div class="skill-card">Grafana</div>
-                <div class="skill-card">Kibana</div>
-                <div class="skill-card">MySQL</div>
-                <div class="skill-card">Red Hat</div>
-                <div class="skill-card">Ubuntu</div>
+                <div class="skill-card">☸️ Kubernetes</div>
+                <div class="skill-card">🐳 Docker</div>
+                <div class="skill-card">☁️ AWS</div>
+                <div class="skill-card">🔷 Azure</div>
+                <div class="skill-card">🏗️ Terraform</div>
+                <div class="skill-card">📦 Git</div>
+                <div class="skill-card">📊 Prometheus</div>
+                <div class="skill-card">📈 Grafana</div>
+                <div class="skill-card">🔍 Kibana</div>
+                <div class="skill-card">🗄️ MySQL</div>
+                <div class="skill-card">🐧 Red Hat</div>
+                <div class="skill-card">🖥️ Ubuntu</div>
             </div>
         </section>
 
         <section id="projects" class="section">
-            <h2>Projects</h2>
+            <h2>Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <h3>Cloud-Native Infrastructure</h3>
-                    <p>Built scalable, automated infrastructure using Kubernetes, Terraform, and GitOps workflows for enterprise deployments.</p>
-                    <a href="https://github.com/sayantan288" class="project-link" target="_blank">View on GitHub</a>
+                    <h3>☸️ Cloud-Native Infrastructure</h3>
+                    <p>Built scalable, automated infrastructure using Kubernetes, Terraform, and GitOps workflows for enterprise deployments. Implemented multi-cluster management with ArgoCD.</p>
+                    <a href="https://github.com/sayantan288" class="project-link" target="_blank">View on GitHub →</a>
                 </div>
                 <div class="project-card">
-                    <h3>CI/CD Pipelines</h3>
-                    <p>Designed and implemented robust CI/CD pipelines with automated testing, security scanning, and deployment orchestration.</p>
-                    <a href="https://github.com/sayantan288" class="project-link" target="_blank">View on GitHub</a>
+                    <h3>🔄 CI/CD Pipelines</h3>
+                    <p>Designed and implemented robust CI/CD pipelines with automated testing, security scanning (Trivy/SonarQube), and deployment orchestration using Jenkins & GitHub Actions.</p>
+                    <a href="https://github.com/sayantan288" class="project-link" target="_blank">View on GitHub →</a>
                 </div>
                 <div class="project-card">
-                    <h3>Observability Stack</h3>
-                    <p>Deployed comprehensive monitoring solutions using Prometheus, Grafana, and ELK stack for infrastructure visibility.</p>
-                    <a href="https://github.com/sayantan288" class="project-link" target="_blank">View on GitHub</a>
+                    <h3>📊 Observability Stack</h3>
+                    <p>Deployed comprehensive monitoring solutions using Prometheus, Grafana, and ELK stack for full-stack infrastructure visibility and alerting.</p>
+                    <a href="https://github.com/sayantan288" class="project-link" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <h3>🔐 GitOps Security</h3>
+                    <p>Implemented GitHub Advanced Security, secrets management with HashiCorp Vault, and automated compliance scanning for cloud-native applications.</p>
+                    <a href="https://github.com/sayantan288" class="project-link" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <h3>🏭 Platform Engineering</h3>
+                    <p>Built internal developer platforms with Backstage, self-service provisioning, and automated governance for 50+ development teams.</p>
+                    <a href="https://github.com/sayantan288" class="project-link" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <h3>☁️ Multi-Cloud Migration</h3>
+                    <p>Led enterprise workload migrations to AWS/Azure with zero-downtime strategies, cost optimization, and infrastructure modernization.</p>
+                    <a href="https://github.com/sayantan288" class="project-link" target="_blank">View on GitHub →</a>
                 </div>
             </div>
         </section>
 
         <section id="contact" class="section">
-            <h2>Contact</h2>
-            <p>Feel free to reach out!</p>
+            <h2>Let's Connect</h2>
+            <p>Feel free to reach out for collaborations, discussions, or just to say hi!</p>
             <div class="social-links">
-                <a href="https://github.com/sayantan288" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/sayantan-karmakar-a87091144" target="_blank">LinkedIn</a>
-                <a href="mailto:sksayantan288@gmail.com">Email</a>
+                <a href="https://github.com/sayantan288" target="_blank">🐙 GitHub</a>
+                <a href="https://linkedin.com/in/sayantan-karmakar-a87091144" target="_blank">💼 LinkedIn</a>
+                <a href="mailto:sksayantan288@gmail.com">📧 Email</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Sayantan Karmakar. All rights reserved.</p>
+        <p>© 2026 Sayantan Karmakar | Built with 🚀 and ☸️</p>
     </footer>
 </body>
 </html>
